@@ -1,1 +1,2 @@
 # Crypto-Clustering-Analysis
+This project aims to analyze and cluster cryptocurrencies based on their market data using K-Means clustering and Principal Component Analysis (PCA). The analysis includes scaling data, determining the optimal number of clusters, and visualizing the clusters.
