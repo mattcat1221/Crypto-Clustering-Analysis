@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cryptocurrency Clustering Analysis</title>
+</head>
+<body>
+    <h1>Cryptocurrency Clustering Analysis</h1>
+    <p>Explore the clustering analysis through the following tabs:</p>
+    <a href="/dash/">Go to Dash App</a>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Top Cryptocurrencies by Market Cap</title>
+</head>
+<body>
+    <h1>Top 10 Cryptocurrencies by Market Cap</h1>
+    <table border="1">
+        <tr>
+            <th>Rank</th>
+            <th>Coin ID</th>
+            <th>Name</th>
+            <th>Market Cap</th>
+            <th>Price</th>
+        </tr>
+        {% for crypto in cryptos %}
+        <tr>
+            <td>{{ loop.index }}</td>
+            <td>{{ crypto['coin_id'] }}</td>
+            <td>{{ crypto['name'] }}</td>
+            <td>{{ crypto['market_cap'] }}</td>
+            <td>{{ crypto['price'] }}</td>
+        </tr>
+        {% endfor %}
+    </table>
+</body>
+</html>

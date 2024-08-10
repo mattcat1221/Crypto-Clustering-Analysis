@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cryptocurrency Market Data</title>
+</head>
+<body>
+    <h1>Top 10 Cryptocurrencies by Market Cap</h1>
+    <table border="1">
+        <tr>
+            <th>Rank</th>
+            <th>Crypto ID</th>
+            <th>Name</th>
+            <th>Market Cap</th>
+            <th>Price Change (24h)</th>
+            <th>Price Change (7d)</th>
+        </tr>
+        {% for crypto in cryptos %}
+        <tr>
+            <td>{{ loop.index }}</td>
+            <td>{{ crypto['crypto_id'] }}</td>
+            <td>{{ crypto['name'] }}</td>
+            <td>{{ crypto['market_cap'] }}</td>
+            <td>{{ crypto['price_change_percentage_24h'] }}%</td>
+            <td>{{ crypto['price_change_percentage_7d'] }}%</td>
+        </tr>
+        {% endfor %}
+    </table>
+</body>
+</html>
+python app.py

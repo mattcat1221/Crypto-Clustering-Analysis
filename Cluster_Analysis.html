@@ -1,18 +1,25 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <meta charset="utf-8">
-    <title>Cryptocurrency Clustering Analysis</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Top Cryptocurrencies by 1-Year Price Change</title>
 </head>
 <body>
-    <h1>Cryptocurrency Clustering Analysis</h1>
-    <div id="dash-container">
-        {%app_entry%}
-    </div>
-    <footer>
-        {%config%}
-        {%scripts%}
-        {%renderer%}
-    </footer>
+    <h1>Top 10 Cryptocurrencies by 1-Year Price Change</h1>
+    <table border="1">
+        <tr>
+            <th>Rank</th>
+            <th>Coin ID</th>
+            <th>1-Year Price Change (%)</th>
+        </tr>
+        {% for crypto in cryptos %}
+        <tr>
+            <td>{{ loop.index }}</td>
+            <td>{{ crypto['coin_id'] }}</td>
+            <td>{{ crypto['price_change_percentage_1y'] }}</td>
+        </tr>
+        {% endfor %}
+    </table>
 </body>
 </html>
