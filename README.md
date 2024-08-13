@@ -4,9 +4,12 @@
 ## Website: 
 [website](https://github.com/mattcat1221/Crypto-Analysis.github.io)
 
+
+
+![clustersandcentroids](https://github.com/user-attachments/assets/ae31e7c3-2ee0-4ad9-a0cf-f05806fd8a38)
+
 ## Description
 This project aims to analyze and cluster cryptocurrencies based on their market data using K-Means clustering and Principal Component Analysis (PCA). The analysis includes scaling data, determining the optimal number of clusters, and visualizing the clusters.
-![clustersandcentroids](https://github.com/user-attachments/assets/ae31e7c3-2ee0-4ad9-a0cf-f05806fd8a38)
 
 ## Table of Contents
 - [Installation](#installation)
