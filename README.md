@@ -6,8 +6,7 @@
 
 ## Description
 This project aims to analyze and cluster cryptocurrencies based on their market data using K-Means clustering and Principal Component Analysis (PCA). The analysis includes scaling data, determining the optimal number of clusters, and visualizing the clusters.
-
-![app_image](/Users/cmatthews/Desktop/Data-Analyst/Projects/Crypto-Clustering Analysis/output2.png)
+![clustersandcentroids](https://github.com/user-attachments/assets/ae31e7c3-2ee0-4ad9-a0cf-f05806fd8a38)
 
 ## Table of Contents
 - [Installation](#installation)
@@ -20,6 +19,7 @@ This project aims to analyze and cluster cryptocurrencies based on their market 
 
 ## Installation
 Pandas: For data manipulation and analysis. scikit-learn: For machine learning algorithms, including K-Means clustering and PCA. matplotlib: For plotting basic visualizations. hvplot: For creating interactive visualizations. holoviews: For creating high-level interactive plots. bokeh: A backend for HoloViews to render the plots.
+
 
 ## Usage
 Data analysis
