@@ -1,0 +1,27 @@
+body {
+    background: lavender;
+    margin: 0;
+}
+
+nav {
+    text-align: center;
+    font-size: 3rem;
+    background: linear-gradient(35deg, teal 40%, black 80%);
+    color: white;
+    border-bottom: 2px solid black;
+    padding: 10px;
+    text-decoration:underline;
+}
+
+aside {
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    margin: 5%;
+    border: 1px solid #000;
+    justify-content: space-around;
+    padding: 5px;
+    height: 100px;
+    border-radius: 8px;
+}
+
