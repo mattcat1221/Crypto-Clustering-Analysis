@@ -1,0 +1,25 @@
+{
+    "name": "express-api-starter",
+    "version": "1.2.0",
+    "description": "A starter template for Express API applications",
+    "main": "src/index.js",
+    "scripts": {
+      "start": "node src/index.js",
+      "dev": "nodemon src/index.js",
+      "lint": "eslint --fix src"
+    },
+    "dependencies": {
+      "express": "^4.17.1"
+    },
+    "devDependencies": {
+      "nodemon": "^2.0.7",
+      "eslint": "^7.27.0"
+    },
+    "engines": {
+      "node": ">=12.0.0"
+    },
+    "author": "",
+    "license": "ISC"
+  }
+  
+  

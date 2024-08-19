@@ -1,34 +1,38 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link rel="icon" href="{{ url_for('static', filename='favicon.ico') }}">
-    <body>
-        <h1>Welcome to Crypto Clustering Analysis</h1>
-        <img src="{{ url_for('static', filename='images/your_image.png') }}" alt="Description">
-    </body>
-    
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="static/css/style.css">
     <title>Cryptocurrency Market Data</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
 </head>
 <body>
-    <nav>Cryptocurrencies Analysis</nav>
+    <nav>
+        <h1>Cryptocurrency Market Analysis</h1>
+    </nav>
 
     <aside>
         <h2>Select Dimensions</h2>
+        <label for="x">X-axis:</label>
         <select id="x"></select>
+        <br>
+        <label for="y">Y-axis:</label>
         <select id="y"></select>
+        <br>
+        <label for="z">Z-axis:</label>
         <select id="z"></select>
     </aside>
 
     <main id="main">
         <div id="myDiv"></div>
     </main>
-    
+
+    <footer>
+        <p>&copy; 2024 Cryptocurrency Market Analysis</p>
+    </footer>
     
     <script src="https://cdn.plot.ly/plotly-2.34.0.min.js" charset="utf-8"></script>
     <script src="https://cdn.jsdelivr.net/npm/d3@7"></script>
-    <script src="static/js/script.js"></script>
+    <script src="{{ url_for('static', filename='js/script.js') }}"></script>
 </body>
 </html>

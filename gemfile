@@ -1,0 +1,29 @@
+# Gemfile
+
+source "https://rubygems.org"
+
+gem "jekyll", "~> 4.3.2"
+gem "webrick", "~> 1.7" # Jekyll needs this gem for serving locally
+
+# Jekyll plugins
+gem "jekyll-feed", "~> 0.15"  # Generates an Atom feed
+gem "jekyll-seo-tag", "~> 2.8" # SEO tag generator
+gem "jekyll-sitemap", "~> 1.4"  # Generates a sitemap
+gem "jekyll-paginate", "~> 1.1"  # Pagination support
+gem "jekyll-archives", "~> 2.2"  # Creates archive pages
+
+# Required dependency
+gem "colorator", "~> 1.0"
+
+# Deployment to GitHub Pages
+group :jekyll_plugins do
+  gem "jekyll-github-metadata", "~> 2.13"  # Needed if deploying to GitHub Pages
+end
+
+# If you want to use Jekyll Admin (optional)
+gem "jekyll-admin", "~> 0.11"
+
+# Use this for live reloading and easier development
+group :jekyll_plugins do
+  gem "jekyll-watch", "~> 2.2"
+end

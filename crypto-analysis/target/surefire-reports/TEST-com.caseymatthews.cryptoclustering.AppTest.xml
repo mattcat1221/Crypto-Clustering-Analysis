@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.caseymatthews.cryptoclustering.AppTest" time="0.016" tests="1" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="17"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/Users/cmatthews/Desktop/Data-Analyst/Projects/tmp/Crypto-Clustering-Analysis/crypto-analysis/target/test-classes:/Users/cmatthews/Desktop/Data-Analyst/Projects/tmp/Crypto-Clustering-Analysis/crypto-analysis/target/classes:/Users/cmatthews/.m2/repository/junit/junit/4.11/junit-4.11.jar:/Users/cmatthews/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:"/>
+    <property name="java.vm.vendor" value="Homebrew"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="https://github.com/Homebrew/homebrew-core/issues"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="java.vm.specification.version" value="17"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.boot.library.path" value="/opt/homebrew/Cellar/openjdk@17/17.0.12/libexec/openjdk.jdk/Contents/Home/lib"/>
+    <property name="sun.java.command" value="/Users/cmatthews/Desktop/Data-Analyst/Projects/tmp/Crypto-Clustering-Analysis/crypto-analysis/target/surefire/surefirebooter8478779204808318195.jar /Users/cmatthews/Desktop/Data-Analyst/Projects/tmp/Crypto-Clustering-Analysis/crypto-analysis/target/surefire 2024-08-18T20-59-55_755-jvmRun1 surefire16360380276918720559tmp surefire_02035635560507822427tmp"/>
+    <property name="http.nonProxyHosts" value="nj.gov/education/crimhst/|*.nj.gov/education/crimhst/"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="/Users/cmatthews/Desktop/Data-Analyst/Projects/tmp/Crypto-Clustering-Analysis/crypto-analysis/target/test-classes:/Users/cmatthews/Desktop/Data-Analyst/Projects/tmp/Crypto-Clustering-Analysis/crypto-analysis/target/classes:/Users/cmatthews/.m2/repository/junit/junit/4.11/junit-4.11.jar:/Users/cmatthews/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/Users/cmatthews"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2024-07-16"/>
+    <property name="java.home" value="/opt/homebrew/Cellar/openjdk@17/17.0.12/libexec/openjdk.jdk/Contents/Home"/>
+    <property name="file.separator" value="/"/>
+    <property name="basedir" value="/Users/cmatthews/Desktop/Data-Analyst/Projects/tmp/Crypto-Clustering-Analysis/crypto-analysis"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="surefire.real.class.path" value="/Users/cmatthews/Desktop/Data-Analyst/Projects/tmp/Crypto-Clustering-Analysis/crypto-analysis/target/surefire/surefirebooter8478779204808318195.jar"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="ftp.nonProxyHosts" value="nj.gov/education/crimhst/|*.nj.gov/education/crimhst/"/>
+    <property name="java.runtime.version" value="17.0.12+0"/>
+    <property name="user.name" value="cmatthews"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="14.5"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="Homebrew"/>
+    <property name="localRepository" value="/Users/cmatthews/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="https://github.com/Homebrew/homebrew-core/issues"/>
+    <property name="java.io.tmpdir" value="/var/folders/cd/262qfy0x67v9h9j0221gc6nh0000gn/T/"/>
+    <property name="java.version" value="17.0.12"/>
+    <property name="user.dir" value="/Users/cmatthews/Desktop/Data-Analyst/Projects/tmp/Crypto-Clustering-Analysis/crypto-analysis"/>
+    <property name="os.arch" value="aarch64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="native.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/Users/cmatthews/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vendor" value="Homebrew"/>
+    <property name="java.vm.version" value="17.0.12+0"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="socksNonProxyHosts" value="nj.gov/education/crimhst/|*.nj.gov/education/crimhst/"/>
+    <property name="java.class.version" value="61.0"/>
+  </properties>
+  <testcase name="shouldAnswerWithTrue" classname="com.caseymatthews.cryptoclustering.AppTest" time="0.001"/>
+</testsuite>
