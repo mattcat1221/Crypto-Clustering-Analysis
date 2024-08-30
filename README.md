@@ -5,12 +5,10 @@
 ![clustersandcentroids](https://github.com/user-attachments/assets/ae31e7c3-2ee0-4ad9-a0cf-f05806fd8a38)
 
 ## Description
-This project aims to analyze and cluster cryptocurrencies based on their market data using K-Means clustering and Principal Component Analysis (PCA). The analysis includes scaling data, determining the optimal number of clusters, and visualizing the clusters.
-
-Project Overview
-This project involved the analysis and clustering of cryptocurrencies based on their market data using K-Means clustering and Principal Component Analysis (PCA). The process included data preprocessing, scaling, clustering, and visualization. Below is a detailed description of the steps undertaken to achieve this analysis.
+This project focuses on analyzing and clustering cryptocurrencies based on market data using K-Means clustering and Principal Component Analysis (PCA). The analysis encompasses data scaling, identifying the optimal number of clusters, and visualizing the resulting clusters. The following is an overview of the process, which includes data preprocessing, scaling, clustering, and visualization, all aimed at uncovering meaningful patterns and insights in the cryptocurrency market.
 
 1: Data Preprocessing
+
 Loading the Data:
 
 The analysis began with the loading of cryptocurrency market data into a pandas DataFrame. The dataset included various features such as price changes over different periods, market capitalization, and trading volume.
