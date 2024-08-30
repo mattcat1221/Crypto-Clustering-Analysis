@@ -18,7 +18,7 @@ The data was examined for missing or null values, which were addressed either by
 Feature Selection:
 Relevant features were selected to contribute to effective clustering, including price change percentages, market capitalization, and trading volume.
 
-Data Scaling
+###Data Scaling###
 
 Standardization:
 The data was standardized to ensure that each feature had a mean of zero and a standard deviation of one. This step was crucial as K-Means clustering is sensitive to the scale of input features.
@@ -26,7 +26,7 @@ The data was standardized to ensure that each feature had a mean of zero and a s
 Principal Component Analysis (PCA):
 PCA was applied to reduce the dimensionality of the data while retaining most of the variance. This step simplified the clustering process and made visualization more interpretable.
 
-K-Means Clustering
+###K-Means Clustering###
 
 Elbow Method:
 The Elbow Method was employed to determine the optimal number of clusters. A plot of the Within-Cluster-Sum of Squared Errors (WSS) for different numbers of clusters was created, with the "elbow point" indicating the optimal number of clusters.
@@ -37,7 +37,7 @@ Once the optimal number of clusters was identified, K-Means clustering was appli
 Cluster Analysis:
 After clustering, the characteristics of each cluster were analyzed to understand the common features within each group, providing insights into the similarities and differences among the various cryptocurrencies.
 
-Visualization
+###Visualization###
 
 Visualizing Clusters:
 The clusters were visualized using both the original features and the principal components obtained from PCA. Scatter plots and 3D plots depicted the distribution of cryptocurrencies across different clusters.
@@ -48,7 +48,7 @@ A combined metric was created by summing specific features like price_change_per
 Elbow Curve:
 The Elbow Curve was plotted to visually determine the optimal number of clusters, which helped validate the chosen clusters.
 
-##Conclusion:
+###Conclusion###
 
 The project successfully clustered cryptocurrencies based on their market data, providing insights into their similarities and differences. The use of K-Means clustering and PCA enabled effective analysis of complex market data, while the visualizations offered an intuitive understanding of the results. This analysis serves as a foundation for further exploration of the cryptocurrency market, including predictive modeling and deeper market segmentation.
 1.	Price Volatility Across Shorter Periods (24h, 7d, 14d):
