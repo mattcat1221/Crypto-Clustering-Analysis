@@ -48,7 +48,8 @@ A combined metric was created by summing specific features like price_change_per
 Elbow Curve:
 The Elbow Curve was plotted to visually determine the optimal number of clusters, which helped validate the chosen clusters.
 
-##Conclusion##
+##Conclusion:
+
 The project successfully clustered cryptocurrencies based on their market data, providing insights into their similarities and differences. The use of K-Means clustering and PCA enabled effective analysis of complex market data, while the visualizations offered an intuitive understanding of the results. This analysis serves as a foundation for further exploration of the cryptocurrency market, including predictive modeling and deeper market segmentation.
 1.	Price Volatility Across Shorter Periods (24h, 7d, 14d):
 o	Most cryptocurrencies show relatively modest changes in the short term (24 hours, 7 days), as evidenced by the median values close to zero.
