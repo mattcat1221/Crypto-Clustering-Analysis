@@ -50,6 +50,21 @@ The Elbow Curve was plotted to visually determine the optimal number of clusters
 
 Conclusion
 The project successfully clustered cryptocurrencies based on their market data, providing insights into their similarities and differences. The use of K-Means clustering and PCA enabled effective analysis of complex market data, while the visualizations offered an intuitive understanding of the results. This analysis serves as a foundation for further exploration of the cryptocurrency market, including predictive modeling and deeper market segmentation.
+1.	Price Volatility Across Shorter Periods (24h, 7d, 14d):
+o	Most cryptocurrencies show relatively modest changes in the short term (24 hours, 7 days), as evidenced by the median values close to zero.
+o	The interquartile ranges (25th to 75th percentiles) are narrow for these short-term periods, indicating that most cryptocurrencies tend to cluster around small positive or negative changes, with a few outliers.
+Differences:
+1.	Dramatic Differences in Long-Term Performance:
+o	Over longer periods, particularly the 60-day, 200-day, and 1-year intervals, the differences among cryptocurrencies become more pronounced.
+o	The mean for the price_change_percentage_1y is 347.67%, with a very high standard deviation of 1247.84%, showing that while some cryptocurrencies have appreciated significantly, others have either remained stagnant or depreciated.
+2.	Outliers:
+o	In the price_change_percentage_200d, some cryptocurrencies show extreme outliers, with a maximum value of 2227.93%, indicating that some assets have grown exponentially over this period.
+o	Similarly, the price_change_percentage_1y has an outlier with a maximum value of 7852.09%, which stands out compared to the median of 69.69%.
+3.	High Variance in Medium-Term Price Changes:
+o	The standard deviations for the price_change_percentage_30d and price_change_percentage_60d are quite large, indicating that there is a wide variety of performance among cryptocurrencies over these periods.
+This analysis shows that while cryptocurrencies often behave similarly over short periods, their long-term performance can differ dramatically, making it essential to consider both short-term and long-term trends when clustering or analyzing these assets.
+
+
 
 ## Table of Contents
 - [Installation](#installation)
